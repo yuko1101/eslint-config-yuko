@@ -2,7 +2,7 @@
   "name": "eslint-config-yuko",
   "version": "1.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
