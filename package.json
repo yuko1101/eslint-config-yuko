@@ -19,10 +19,16 @@
   },
   "homepage": "https://github.com/yuko1101/eslint-config-yuko#readme",
   "dependencies": {
-    "@typescript-eslint/parser": ">= 5"
+    "@typescript-eslint/parser": "^5.4.2 || ^6.0.0"
   },
   "peerDependencies": {
-    "eslint": ">= 7",
-    "@typescript-eslint/eslint-plugin": ">= 5"
+    "eslint": "^7.23.0 || ^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.2 || ^6.0.0",
+    "typescript": ">=3.3.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   }
 }
